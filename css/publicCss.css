@@ -1,0 +1,52 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd,i,
+ul, ol, li, pre, fieldset, button, input, textarea,
+th,td{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 14px;
+}
+h4,h5,h6{
+    font-size: 100%;
+}
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #888;
+    
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+hr{
+    border: none;
+    height: 1px;
+}
+a:link:hover{
+    color: rgb(253, 255, 253);
+    
+}
+input{
+    outline: none;
+    border: none;
+}
+img{
+    display: block;
+}
+small{
+    font-size: 80%;
+}
+

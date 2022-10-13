@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    
+    <link rel="stylesheet" href="./css/publicCss.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!--引入jQuery -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.4.1.js"></script>
+    
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="top-main">
+            <!-- 头部 -->
+            <div class="header">
+                易记
+            </div>
+
+            <!-- 输入框和按钮 -->
+            <form action="" method="post" id="form" class="form">
+                <input type="text" class="text" name="text" placeholder="请输入代办事项">
+                <input type="button" class="button" value="+">
+            </form>
+            <!-- 代办事项和已完成切换 -->
+            <nav class="nav">
+                
+                <li class="item show">
+                    <h2>未办事项</h2>
+                </li>
+                <li class="item">
+                    <h2>已完成</h2>
+                </li>
+                
+            </nav>
+            <!-- 所有的代办or已完成事项 -->
+            <div class="text-show">
+                <div class="text show">
+                    <div class="text-item">
+                        <div class="item-text">你好呀</div>
+                        <button class="button check"><i class="fa fa-check"></i></button>
+                        <button class="button close"><i class="fa fa-close"></i></button>
+                    </div>
+                </div>
+                <div class="text">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
