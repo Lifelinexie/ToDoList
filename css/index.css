@@ -83,7 +83,6 @@
   height: 50px;
   width: 100%;
   display: flex;
-  border-bottom: 1px solid #000;
   margin-bottom: 1px;
   background: linear-gradient(to right, #e3fcf5, #fee7fa);
 }
